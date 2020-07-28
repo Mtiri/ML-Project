@@ -8,8 +8,6 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img, i
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras import Sequential, optimizers, layers
 
-#import os
-#import random
 
 
 # load model exluding fully-connected layers
