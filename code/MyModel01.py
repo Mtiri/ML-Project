@@ -156,7 +156,7 @@ errors = np.where(predictions != ground_truth)[0]
 print("Number of errors = {}/{}".format(len(errors),nval))
 
 
-#Let's take a look at the loss and accuracy curves during training:
+# the loss and accuracy curves during training:
 
 acc = history.history['acc']
 val_acc = history.history['val_acc']
